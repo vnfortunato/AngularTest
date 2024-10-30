@@ -37,6 +37,12 @@
           }
         }
       }
+    },
+    {
+      "label": "prova",
+      "type": "shell",
+      "command": "echo prova",
+      "group": "build"
     }
   ]
 }
