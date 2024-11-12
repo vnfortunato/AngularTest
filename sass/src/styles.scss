@@ -1,0 +1,14 @@
+$padding: 8px;
+nav {
+ul {
+margin: 0;
+padding: $padding;
+list-style: none;
+}
+li { display: inline-block; }
+a {
+display: block;
+padding: $padding 16px;
+text-decoration: none;
+}
+}
