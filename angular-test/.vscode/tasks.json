@@ -43,6 +43,20 @@
       "type": "shell",
       "command": "echo prova",
       "group": "build"
+    },
+    {
+      "label": "Compila TypeScript (file attivo)",
+      "type": "shell",
+      "command": "tsc",
+      "args": [
+        "${file} "
+      ],
+      "group": {
+        "kind": "build",
+        "isDefault": true
+      },
+      "problemMatcher": ["$tsc"],
+      "detail": "Compila il file TypeScript attivo utilizzando il comando tsc"
     }
   ]
 }
